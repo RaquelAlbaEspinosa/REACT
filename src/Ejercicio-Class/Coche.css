@@ -1,0 +1,20 @@
+.coche {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.coche div {
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 20px;
+}
+h1 {
+    margin: 0;
+    padding-bottom: 40px;
+}
+ .background {
+    background-color: RGB(195,145,240);
+    text-align: center;
+    padding: 100px;
+ }

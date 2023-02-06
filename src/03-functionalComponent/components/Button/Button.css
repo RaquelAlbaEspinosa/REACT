@@ -1,0 +1,10 @@
+.specialButton {
+    padding: 20px;
+    background-color: cadetblue;
+    color: white;
+    border: none;
+    border-radius: 30px;
+}
+.specialButton:active {
+    background-color: rgb(81, 137, 138);
+}
