@@ -1,0 +1,26 @@
+.contPrincipalBool{
+    background-color: antiquewhite;
+    color: black;
+    text-align: center;
+    min-height: 100vh;
+}
+.contEjemplosBool{
+    padding: 60px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cardEjem{
+    width: 38%;
+    padding: 5%;
+    color: white;
+    margin: 1%;
+    background-color: rgb(16, 16, 16);
+}
+.cardEjem button{
+    padding: 10px;
+    background-color: rgb(255, 69, 255);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    margin: 1%;
+}

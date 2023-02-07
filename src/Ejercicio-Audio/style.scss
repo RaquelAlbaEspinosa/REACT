@@ -1,0 +1,18 @@
+.reproductor {
+    background-color: grey;
+    color: black;
+    text-align: center;
+    padding: 30px;
+    .plailistImage{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        padding: 30px;
+        .image {
+            width: 50vw;
+            img{
+                width: 300px;
+            }
+        }
+    }
+}

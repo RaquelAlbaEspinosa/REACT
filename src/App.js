@@ -11,6 +11,9 @@ import { FunctionalCompApp } from './03-functionalComponent/FunctionalCompApp';
 // -------------------03-FunctionalCompApp-------------------
 import { ContadorApp } from './04-useState/explicacion/ContadorApp';
 
+// -------------------05-Booleanos-------------------
+import { BooleanosUseState } from './05-booleanos/BooleanosUseState';
+
 // import './App.css'; // importamos los estilos
 // ya no se usa class sino className porque ya existe un class en javaScript
 // para inyectar js se hace entre llaves, aunque intentemos poner lo mínimo posible dentro del return, mejor ponerla antes.
@@ -23,6 +26,9 @@ import { Section } from "./Ejercicio-Function/Section";
 import './App.css';
 import { TheSimpsons } from './TheSimpsons/TheSimpsons';
 import { EjercicioUseState1 } from './04-useState/ejercicio/EjercicioUseState1';
+import { EjercicioAudio } from './Ejercicio-Audio/EjercicioAudio';
+import { EjercicioBingo } from './Ejercicio-Bingo/EjercicioBingo';
+
 
 function App() {
   return (
@@ -54,7 +60,17 @@ function App() {
       {/* <ContadorApp /> */}
 
       {/* Ejercicio useState */}
-      <EjercicioUseState1 />
+      {/* <EjercicioUseState1 /> */}
+
+      {/* 05 Booleanos */}
+      {/* ====================== */}
+      {/* <BooleanosUseState /> */}
+
+      {/* Ejercicio Audio */}
+      {/* <EjercicioAudio /> */}
+
+      {/* Ejercicio Bingo */}
+      <EjercicioBingo />
       
     </Fragment>
   );

@@ -24,6 +24,8 @@ export const EjercicioUseState1 = () => {
     const red = () => {setColor("red")}
     const green = () => {setColor("green")}
 
+    // él lo hace con clases con el mismo nombre que el estado. Si ponemos comillas francesas hay que poner llaves primero porque es javascript
+
   return (
     <>
         <div className='useState1' style={{backgroundColor: `${back}`, color: `${colorText}`, padding: "100px"}}>
