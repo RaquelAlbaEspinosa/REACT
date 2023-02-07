@@ -8,6 +8,9 @@ import { Fragment } from 'react';
 // -------------------03-FunctionalCompApp-------------------
 import { FunctionalCompApp } from './03-functionalComponent/FunctionalCompApp';
 
+// -------------------03-FunctionalCompApp-------------------
+import { ContadorApp } from './04-useState/explicacion/ContadorApp';
+
 // import './App.css'; // importamos los estilos
 // ya no se usa class sino className porque ya existe un class en javaScript
 // para inyectar js se hace entre llaves, aunque intentemos poner lo mínimo posible dentro del return, mejor ponerla antes.
@@ -18,6 +21,8 @@ import { FunctionalCompApp } from './03-functionalComponent/FunctionalCompApp';
 import Coche from "./Ejercicio-Class/Coche";
 import { Section } from "./Ejercicio-Function/Section";
 import './App.css';
+import { TheSimpsons } from './TheSimpsons/TheSimpsons';
+import { EjercicioUseState1 } from './04-useState/ejercicio/EjercicioUseState1';
 
 function App() {
   return (
@@ -36,9 +41,20 @@ function App() {
       {/* <FunctionalCompApp /> */}
 
       {/* Ejercicio Class Coche */}
-      <Coche />
+      {/* <Coche /> */}
       {/* Ejercicio Function Section */}
-      <Section />
+      {/* <Section /> */}
+
+      {/* Ejercicio los Simpsons */}
+      {/* <TheSimpsons /> */}
+
+      
+      {/* 04 useState */}
+      {/* ====================== */}
+      {/* <ContadorApp /> */}
+
+      {/* Ejercicio useState */}
+      <EjercicioUseState1 />
       
     </Fragment>
   );

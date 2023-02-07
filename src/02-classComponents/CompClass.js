@@ -2,6 +2,7 @@ import React, { Component, Fragment } from "react"; //primero importamos React p
 
 import './CompClass.css';
 
+// en los tipo clase no funcionan los ganchos (hooks).
 export default class CompClass extends Component {
     render(){ 
         const name = "Raquel"

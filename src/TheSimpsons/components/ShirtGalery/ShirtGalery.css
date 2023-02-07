@@ -1,0 +1,19 @@
+.camisGalery{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: space-around;
+    margin: 100px 0;
+}
+.camis {
+    border: 1px solid black;
+    box-shadow: 0 0 10px black;
+    border-radius: 5px;
+    padding: 30px;
+}
+.camis p {
+    margin: 0;
+}
+.camis img {
+    height: 150px;
+}
