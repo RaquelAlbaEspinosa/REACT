@@ -1,0 +1,74 @@
+.todo{
+    font-family: sans-serif;
+}
+.colores{
+    text-align: center;
+    height: 30%;
+    padding: 5%;
+    input {
+        height: 40%;
+        width: 15%;
+        border: none;
+    }
+}
+.rosa {
+    background-color: rgb(255, 164, 180);
+    color: rgb(156, 50, 255);
+}
+.azul {
+    background-color: rgb(48, 48, 255);
+    color: rgb(175, 255, 228);
+}
+.amarillo {
+    background-color: rgb(255, 255, 128);
+    color: rgb(255, 135, 22);
+}
+.verde {
+    background-color: rgb(133, 255, 133);
+    color: darkolivegreen;
+}
+.escritura {
+    display: flex;
+    justify-content: space-around;
+    background-color: bisque;
+    text-align: center;
+    height: 70%;
+    div{
+        width: 40%;
+        padding: 5%;
+        margin: 5%;
+        border-radius: 30px;
+        box-shadow: 2px 2px 10px grey;
+    }
+    .escribir{
+        background-color: white;
+        h1{
+            margin: 0;
+            padding: 10px;
+        }
+        input{
+            width: 100%;
+            height: 45%;
+            border: none;
+        }
+    }
+    .pantalla{
+        background-color: rgb(184, 223, 255);
+    }
+}
+button{
+    margin: 5px;
+    background-color: antiquewhite;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    box-shadow: 3px 3px 5px rgba(128, 128, 128, 0.416);
+}
+button:active{
+    background-color: rgb(255, 224, 184);
+    box-shadow: 0 0 5px rgba(128, 128, 128, 0.416);
+}
+.warning{
+    color: red;
+    font-size: 20px;
+}

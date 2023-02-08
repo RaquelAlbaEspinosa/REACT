@@ -14,6 +14,9 @@ import { ContadorApp } from './04-useState/explicacion/ContadorApp';
 // -------------------05-Booleanos-------------------
 import { BooleanosUseState } from './05-booleanos/BooleanosUseState';
 
+// -------------------06-Strings-------------------
+import { StringApp } from './06-strings/StringApp';
+
 // import './App.css'; // importamos los estilos
 // ya no se usa class sino className porque ya existe un class en javaScript
 // para inyectar js se hace entre llaves, aunque intentemos poner lo mínimo posible dentro del return, mejor ponerla antes.
@@ -21,13 +24,15 @@ import { BooleanosUseState } from './05-booleanos/BooleanosUseState';
 // se puede poner fragment en vez de un div pero se debe importar primero. Simplemente es un contenedor para meter todo el código que necesitemos, también se puede poner solo como <> </>. Sirve por si coge estilos los div por herencia que no los coja
 // el App debe estar lo más limpio posible
 
-import Coche from "./Ejercicio-Class/Coche";
-import { Section } from "./Ejercicio-Function/Section";
-import './App.css';
-import { TheSimpsons } from './TheSimpsons/TheSimpsons';
-import { EjercicioUseState1 } from './04-useState/ejercicio/EjercicioUseState1';
-import { EjercicioAudio } from './Ejercicio-Audio/EjercicioAudio';
-import { EjercicioBingo } from './Ejercicio-Bingo/EjercicioBingo';
+// import Coche from "./Ejercicio-Class/Coche";
+// import { Section } from "./Ejercicio-Function/Section";
+// import './App.css';
+// import { TheSimpsons } from './TheSimpsons/TheSimpsons';
+// import { EjercicioUseState1 } from './04-useState/ejercicio/EjercicioUseState1';
+// import { EjercicioAudio } from './Ejercicio-Audio/EjercicioAudio';
+// import { EjercicioBingo } from './Ejercicio-Bingo/EjercicioBingo';
+// import { EjercicioFormulario } from './Ejercicio-Formulario/EjercicioFormulario';
+import { Calculadoras } from './Ejercicio-Calculadora/Calculadoras';
 
 
 function App() {
@@ -70,7 +75,17 @@ function App() {
       {/* <EjercicioAudio /> */}
 
       {/* Ejercicio Bingo */}
-      <EjercicioBingo />
+      {/* <EjercicioBingo /> */}
+
+      {/* 06 strings */}
+      {/* ====================== */}
+      {/* <StringApp /> */}
+
+      {/* Ejercicio Formulario */}
+      {/* <EjercicioFormulario /> */}
+
+      {/* Ejercicio calculadora */}
+      <Calculadoras />
       
     </Fragment>
   );
