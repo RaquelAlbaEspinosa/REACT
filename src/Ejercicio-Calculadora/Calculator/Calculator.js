@@ -2,9 +2,9 @@ import React, { useState } from 'react'
 import "./Calculator.scss"
 
 export const Calculator = () => {
-    const [num1, setNum1] = useState();
-    const [num2, setNum2] = useState();
-    const [res, setRes] = useState();
+    const [num1, setNum1] = useState("");
+    const [num2, setNum2] = useState("");
+    const [res, setRes] = useState("");
     const [operator, setOperator] = useState("+");
     const [bool, setBool] = useState(false);
 
@@ -15,18 +15,20 @@ export const Calculator = () => {
         } else if (isNaN(num1) || isNaN(num2)) {
             setBool(true);
         } else {
+            let parseNum1 = parseInt(num1);
+            let parseNum2 = parseInt(num2);
             switch(operator){
                 case "+":
-                    setRes(num1 + num2);
+                    setRes(parseNum1 + parseNum2);
                 break;
                 case "-":
-                    setRes(num1 - num2);
+                    setRes(parseNum1 - parseNum2);
                 break;
                 case "/":
-                    setRes(num1 / num2);
+                    setRes(parseNum1 / parseNum2);
                 break;
                 case "*":
-                    setRes(num1 * num2);
+                    setRes(parseNum1 * parseNum2);
                 break;
             }
             setBool(false);
@@ -34,13 +36,12 @@ export const Calculator = () => {
     }
 
     const clean = () => {
-        setNum1(0);
-        setNum2(0);
+        setNum1("");
+        setNum2("");
         setOperator("+");
-        setRes();
+        setRes("");
         setBool(false);
     }
-
 
   return (
     <div className='calculator'>

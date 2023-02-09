@@ -2,41 +2,42 @@ import React, { useState } from 'react'
 import "./Degrees.scss"
 
 export const Degrees = () => {
-    const [degrees, setDegrees] = useState();
+    const [degrees, setDegrees] = useState("");
     const[conversionType, setConversionType] = useState("ºC a ºF");
-    const[res, setRes] = useState();
+    const[res, setRes] = useState("");
 
     const operate = () => {
         if(isNaN(degrees)){
             alert("Pon números, no me seas");
         } else {
+            let parseDegrees = parseInt(degrees);
             switch(conversionType){
                 case "ºC a ºF":
-                    setRes((degrees * 9 / 5) + 32);
+                    setRes((parseDegrees * 9 / 5) + 32);
                 break;
                 case "ºC a ºK":
-                    setRes(degrees + 273,15);
+                    setRes(parseDegrees + 273,15);
                 break;
                 case "ºF a ºC":
-                    setRes((degrees - 32) * 5 / 9);
+                    setRes((parseDegrees - 32) * 5 / 9);
                 break;
                 case "ºF a ºK":
-                    setRes((degrees - 32) * 5 / 9 + 273,15);
+                    setRes((parseDegrees - 32) * 5 / 9 + 273,15);
                 break;
                 case "ºK a ºC":
-                    setRes(degrees - 273,15);
+                    setRes(parseDegrees - 273,15);
                 break;
                 case "ºK a ºF":
-                    setRes((degrees - 273,15) * 9 / 5 + 32);
+                    setRes((parseDegrees - 273,15) * 9 / 5 + 32);
                 break;
             }
         }
     }
 
     const clean = () => {
-        setDegrees(0);
+        setDegrees("");
         setConversionType("ºC a ºF");
-        setRes();
+        setRes("");
     }
 
   return (
