@@ -1,0 +1,69 @@
+.all{
+    background-color: rgb(206, 253, 255);
+    padding: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 80vh;
+    font-family: sans-serif;
+    .func{
+        border: 2px solid rgb(255, 119, 255);
+        background-color: rgb(255, 197, 211);
+        padding: 30px;
+        .add{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            label{
+                color: rgb(182, 104, 255);
+            }
+        }
+        .busqueda{
+            padding: 0 15px;
+            p{
+                margin: 0;
+                padding: 5px;
+                color: rgb(70, 25, 112);
+            }
+        }
+    }
+    .paintList{
+        background-color: rgb(255, 246, 212);
+        padding: 30px;
+        width: 50vw;
+        box-shadow: 0px 10px 10px rgb(88, 124, 144);
+        border-radius: 30px;
+        h1{
+            color: saddlebrown;
+        }
+        .lista{
+            padding: 10px 30px;
+            p{
+                margin-top: 0;
+                color: rgb(84, 45, 18);
+            }
+        }
+    }
+    button{
+        margin: 5px;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 10px;
+        background-color: rgb(160, 239, 255);
+        color: rgb(5, 61, 72);
+        font-weight: 700;
+    }
+    h1, h2{
+        margin: 0;
+        padding: 10px;
+        color: blueviolet;
+    }
+    input{
+        margin: 10px 0;
+        height: 30px;
+        border: none;
+        color: rgb(5, 61, 72);
+    }
+    hr{
+        border: 2px solid rgb(255, 119, 255);
+    }
+}

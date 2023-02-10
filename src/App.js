@@ -17,6 +17,10 @@ import { BooleanosUseState } from './05-booleanos/BooleanosUseState';
 // -------------------06-Strings-------------------
 import { StringApp } from './06-strings/StringApp';
 
+
+// -------------------07-Array-------------------
+import { MapeoArray } from './07-array/explicacionMapeo/MapeoArray';
+
 // import './App.css'; // importamos los estilos
 // ya no se usa class sino className porque ya existe un class en javaScript
 // para inyectar js se hace entre llaves, aunque intentemos poner lo mínimo posible dentro del return, mejor ponerla antes.
@@ -32,7 +36,11 @@ import { StringApp } from './06-strings/StringApp';
 // import { EjercicioAudio } from './Ejercicio-Audio/EjercicioAudio';
 // import { EjercicioBingo } from './Ejercicio-Bingo/EjercicioBingo';
 // import { EjercicioFormulario } from './Ejercicio-Formulario/EjercicioFormulario';
-import { Calculadoras } from './Ejercicio-Calculadora/Calculadoras';
+// import { Calculadoras } from './Ejercicio-Calculadora/Calculadoras';
+// import { EjercicioListaCompra } from './07-array/ejercicio-listaCompra/EjercicioListaCompra';
+// import { TablaBotones } from './07-array/ejercicio-TablaBotones/TablaBotones';
+import { Emoticonos } from './07-array/ejercicio-Emoticonos/Emoticonos';
+
 
 
 function App() {
@@ -85,7 +93,20 @@ function App() {
       {/* <EjercicioFormulario /> */}
 
       {/* Ejercicio calculadora */}
-      <Calculadoras />
+      {/* <Calculadoras /> */}
+
+      {/* 07 array */}
+      {/* ====================== */}
+      {/* <MapeoArray /> */}
+
+      {/* Ejercicio Lista de la Compra */}
+      {/* <EjercicioListaCompra /> */}
+
+      {/* Ejercicio Tabla de Botones */}
+      {/* <TablaBotones /> */}
+
+      {/* Ejercicio Emoticonos */}
+      <Emoticonos />
       
     </Fragment>
   );

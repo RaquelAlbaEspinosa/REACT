@@ -1,0 +1,201 @@
+export const fruits = [
+    {
+        id: 1,
+        name: 'Aguacate',
+        kcal: 134,
+        agua: 79,
+        hc: 1.3,
+        fibra: 2.4,
+        grasa: 13.8,
+        prot: 1.3,
+        img: "/assets/images/frutas/aguacate.jpg"
+    },
+    {
+        id: 2,
+        name: 'Albaricoque',
+        kcal: 40,
+        agua: 86,
+        hc: 9.5,
+        fibra: 2.1,
+        grasa: 0.1,
+        prot: 0.8,
+        img: "/assets/images/frutas/albaricoque.jpg"
+    },
+    {
+        id: 3,
+        name: 'Cerezas',
+        kcal: 58,
+        agua: 82,
+        hc: 13.5,
+        fibra: 1.5,
+        grasa: 0.5,
+        prot: 0.8,
+        img: "/assets/images/frutas/cereza.jpg"
+    },
+    {
+        id: 4,
+        name: 'Ciruela',
+        kcal: 45,
+        agua: 84,
+        hc: 11,
+        fibra: 2.1,
+        grasa: 0.15,
+        prot: 0.6,
+        img: "/assets/images/frutas/ciruela.jpg"
+    },
+    {
+        id: 5,
+        name: 'Fresas',
+        kcal: 34,
+        agua: 88,
+        hc: 7,
+        fibra: 2.2,
+        grasa: 0.5,
+        prot: 0.7,
+        img: "/assets/images/frutas/fresa.jpg"
+    },
+    {
+        id: 6,
+        name: 'Kiwy',
+        kcal: 53,
+        agua: 83,
+        hc: 12.1,
+        fibra: 1.5,
+        grasa: 0.44,
+        prot: 1,
+        img: "/assets/images/frutas/kiwy.jpg"
+    },
+    {
+        id: 7,
+        name: 'Limon',
+        kcal: 39,
+        agua: 87,
+        hc: 9,
+        fibra: 1,
+        grasa: 0.3,
+        prot: 0.7,
+        img: "/assets/images/frutas/limon.jpg"
+    },
+    {
+        id: 8,
+        name: 'Mandarina',
+        kcal: 39,
+        agua: 86,
+        hc: 9,
+        fibra: 1.9,
+        grasa: 0.19,
+        prot: 0.8,
+        img: "/assets/images/frutas/mandarina.jpg"
+    },
+    {
+        id: 9,
+        name: 'Manzana',
+        kcal: 41,
+        agua: 85,
+        hc: 10.5,
+        fibra: 2.3,
+        grasa: 0.1,
+        prot: 0.3,
+        img: "/assets/images/frutas/manzana.jpg"
+    },
+    {
+        id: 10,
+        name: 'Melocotón',
+        kcal: 37,
+        agua: 86,
+        hc: 9,
+        fibra: 2.3,
+        grasa: 0.1,
+        prot: 0.6,
+        img: "/assets/images/frutas/melocoton.jpg"
+    },
+    {
+        id: 11,
+        name: 'Melón',
+        kcal: 37,
+        agua: 88,
+        hc: 8.4,
+        fibra: 0.8,
+        grasa: 0.28,
+        prot: 0.9,
+        img: "/assets/images/frutas/melon.jpg"
+    },
+    {
+        id: 12,
+        name: 'Naranja',
+        kcal: 38,
+        agua: 86,
+        hc: 8.6,
+        fibra: 2.3,
+        grasa: 0.3,
+        prot: 0.8,
+        img: "/assets/images/frutas/naranja.jpg"
+    },
+    {
+        id: 13,
+        name: 'Pera',
+        kcal: 48,
+        agua: 84,
+        hc: 11.7,
+        fibra: 2.2,
+        grasa: 0.3,
+        prot: 0.4,
+        img: "/assets/images/frutas/pear.jpg"
+    },
+    {
+        id: 14,
+        name: 'Piña',
+        kcal: 46,
+        agua: 85,
+        hc: 11.5,
+        fibra: 1.2,
+        grasa: 0.1,
+        prot: 0.5,
+        img: "/assets/images/frutas/piña.jpg"
+    },
+    {
+        id: 15,
+        name: 'Plátano',
+        kcal: 85,
+        agua: 73,
+        hc: 20.8,
+        fibra: 2.5,
+        grasa: 0.27,
+        prot: 1.2,
+        img: "/assets/images/frutas/platano.jpg"
+    },
+    {
+        id: 16,
+        name: 'Sandía',
+        kcal: 22,
+        agua: 93,
+        hc: 4.5,
+        fibra: 0.3,
+        grasa: 0.3,
+        prot: 0.5,
+        img: "/assets/images/frutas/sandia.jpg"
+    },
+    {
+        id: 17,
+        name: 'Uva Blanca',
+        kcal: 63,
+        agua: 81,
+        hc: 16.1,
+        fibra: 0.4,
+        grasa: 0.1,
+        prot: 0.6,
+        img: "/assets/images/frutas/uvablanca.jpg"
+    },
+    {
+        id: 18,
+        name: 'Uva negra',
+        kcal: 67,
+        agua: 81,
+        hc: 15.5,
+        fibra: 0.4,
+        grasa: 0.7,
+        prot: 0.6,
+        img: "/assets/images/frutas/uvanegra.jpg"
+    },
+
+]

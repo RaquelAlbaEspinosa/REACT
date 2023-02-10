@@ -17,6 +17,7 @@ export const Calculator = () => {
         } else {
             let parseNum1 = parseInt(num1);
             let parseNum2 = parseInt(num2);
+            // quizás mejor sel setRes fuera y usar una variable para recoger las operaciones
             switch(operator){
                 case "+":
                     setRes(parseNum1 + parseNum2);

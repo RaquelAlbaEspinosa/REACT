@@ -50,6 +50,7 @@ export const Degrees = () => {
             placeholder='Grados'
             onChange={(e) => setDegrees(e.target.value)}
             value={degrees}
+            // autoComplete= 'off'
         />
         <div className="botones">
             <button onClick={() => setConversionType("ºC a ºF")} className={conversionType === "ºC a ºF" && "selected"}>ºC a ºF</button>

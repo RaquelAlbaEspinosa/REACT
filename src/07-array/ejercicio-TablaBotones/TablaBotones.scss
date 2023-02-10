@@ -1,0 +1,72 @@
+.entrada{
+    background-color: rgb(215, 172, 255);
+    padding: 60px;
+    color: rgb(45, 45, 167);
+    text-align: center;
+    hr{
+        border: 2px solid rgb(45, 45, 167);
+    }
+    .Abrir{
+        background-color: rgb(215, 255, 156);
+        color: rgb(27, 109, 27);
+    }
+    .Cerrar{
+        background-color: rgb(255, 78, 78);
+        color: rgb(97, 9, 9);
+    }
+}
+.abierto{
+    background-color: rgb(255, 255, 214);
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1{
+        color: rgb(165, 99, 42);
+    }
+    input{
+        height: 30px;
+        width: 200px;
+        text-align: center;
+        margin-bottom: 10px;
+        border: none;
+    }
+    button{
+        font-size: 17px;
+        font-weight: 400;
+        background-color: rgb(219, 147, 85);
+        color: rgb(255, 255, 182);
+    }
+    table{
+        margin: 10px;
+        border-collapse: collapse;
+        color: rgb(88, 41, 3);
+        text-align: center;
+        .principal{
+            background-color: rgb(255, 188, 129);
+        }
+        td{
+            border: 1px solid rgb(165, 99, 42);
+            padding: 5px 10px;
+            width: 200px;
+            button{
+                font-size: 16px;
+                font-weight: 300;
+                padding: 7px 15px;
+            }
+        }
+    }
+}
+h1{
+    margin: 0;
+    padding: 10px;
+}
+button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 10px;
+    margin: 0;
+}

@@ -1,0 +1,29 @@
+.contPpal{
+    padding: 60px;
+}
+.usuario{
+    border: 1px solid black;
+    margin: 5px;
+    padding: 10px;
+}
+.listaFrutas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    .frutaCaja{
+        border: 1px solid grey;
+        padding: 10px;
+        text-align: center;
+        margin: 10px;
+        p{
+            margin: 0;
+            padding: 10px;
+        }
+        img{
+            height: 20vw;
+            width: 15vw;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+}
