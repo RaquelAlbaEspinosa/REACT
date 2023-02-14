@@ -16,19 +16,19 @@ export const Degrees = () => {
                     setRes((parseDegrees * 9 / 5) + 32);
                 break;
                 case "ºC a ºK":
-                    setRes(parseDegrees + 273,15);
+                    setRes(parseDegrees + 273.15);
                 break;
                 case "ºF a ºC":
                     setRes((parseDegrees - 32) * 5 / 9);
                 break;
                 case "ºF a ºK":
-                    setRes((parseDegrees - 32) * 5 / 9 + 273,15);
+                    setRes((parseDegrees - 32) * 5 / 9 + 273.15);
                 break;
                 case "ºK a ºC":
-                    setRes(parseDegrees - 273,15);
+                    setRes(parseDegrees - 273.15);
                 break;
                 case "ºK a ºF":
-                    setRes((parseDegrees - 273,15) * 9 / 5 + 32);
+                    setRes((parseDegrees - 273.15) * 9 / 5 + 32);
                 break;
             }
         }

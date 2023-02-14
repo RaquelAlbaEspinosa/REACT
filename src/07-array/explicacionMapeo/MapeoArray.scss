@@ -1,5 +1,6 @@
 .contPpal{
     padding: 60px;
+    background-color: rgb(255, 223, 182);
 }
 .usuario{
     border: 1px solid black;
@@ -10,8 +11,13 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    gap: 30px;
     .frutaCaja{
-        border: 1px solid grey;
+        border: 2px solid rgb(134, 79, 42);
+        border-radius: 20px;
+        background-color: burlywood;
+        color: rgb(71, 43, 23);
+        box-shadow: 0 5px 10px rgb(71, 43, 23);
         padding: 10px;
         text-align: center;
         margin: 10px;
@@ -22,6 +28,8 @@
         img{
             height: 20vw;
             width: 15vw;
+            min-width: 200px;
+            min-height: 250px;
             object-fit: cover;
             object-position: center;
         }

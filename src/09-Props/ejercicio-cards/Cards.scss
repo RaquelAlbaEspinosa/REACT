@@ -1,0 +1,41 @@
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px;
+    background-color: pink;
+}
+button{
+    background-color: rgb(224, 40, 197);
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+button:active{
+    background-color: white;
+    color: rgb(224, 40, 197);
+    border: 1px solid rgb(224, 40, 197);
+    box-shadow: 0 0 10px 5px rgb(255, 123, 235);
+}
+.tarjeta {
+    div{
+        margin: auto;
+        width: 40%;
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(168, 168, 255);
+        padding: 30px;
+        margin-top: 20px;
+        box-shadow: 5px 5px 10px rgba(155, 40, 208, 0.674);
+        img{
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+}

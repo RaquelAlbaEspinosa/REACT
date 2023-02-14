@@ -8,6 +8,7 @@ export const TablaBotones = () => {
 
     const addClient = () => {
         setClientList([...clientList, client]);
+        setClient("");
     }
 
     const deleteClient = (index) => {

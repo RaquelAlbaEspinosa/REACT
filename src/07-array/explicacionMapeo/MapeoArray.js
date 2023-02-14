@@ -11,7 +11,7 @@ export const MapeoArray = () => {
 
   return (
     <div className='contPpal'>
-        <h1>Mapear Array</h1>
+        {/* <h1>Mapear Array</h1>
         <hr />
         <p>{list[0]}</p>
         <p>{list[1]}</p>
@@ -23,11 +23,11 @@ export const MapeoArray = () => {
                 <h2>Usuario</h2>
                 <p>Nombre: {x}</p>
             </div>
-        )}
+        )} */}
         {/* cada uno tiene su propia clave para que no haya problemas */}
-        <ListaDesordenada />
+        {/* <ListaDesordenada /> */}
         <EjercicioFrutas />
-        <ListaCompraApp />
+        {/* <ListaCompraApp /> */}
     </div>
   )
 }

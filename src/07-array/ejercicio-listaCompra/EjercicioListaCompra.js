@@ -13,20 +13,28 @@ export const EjercicioListaCompra = () => {
     }
 
     const deleteProduct = () => {
-        let listaProvisional = lista.map(prod => prod);
+        let listaProvisional = lista.map(prod => prod); 
         listaProvisional.pop();
         setLista(listaProvisional);
     }
 
     const search = () => {
-        let listaBusqProvisional = [];
-        lista.map(prod => {
-            if(prod.toLowerCase().includes(productoBusqueda.toLocaleLowerCase())){
-                listaBusqProvisional = [...listaBusqProvisional, prod];
-            }
-            }
-        );
-        setListaBusqueda(listaBusqProvisional);
+        //let listaBusqProvisional = [];
+        //lista.filter(prod => { //mejor filter y se puede poner directamente que la lista provisional sea esto.
+            //if(prod.toLowerCase().includes(productoBusqueda.toLocaleLowerCase())){
+                //listaBusqProvisional = [...listaBusqProvisional, prod];
+            //}
+            //}
+        //);
+        // no hace falta el array provisional, se puede setear directamente
+        // let listaBusqProvisional = lista.filter((prod) => prod.toLowerCase().includes(productoBusqueda.toLowerCase())); //mucho mejor así
+        // setListaBusqueda(listaBusqProvisional);
+
+        if(productoBusqueda != ""){
+            setListaBusqueda(lista.filter((prod) => prod.toLowerCase().includes(productoBusqueda.toLowerCase())));
+        } else {
+            setListaBusqueda([]);
+        }
     }
 
   return (

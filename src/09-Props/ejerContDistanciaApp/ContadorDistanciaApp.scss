@@ -1,0 +1,22 @@
+.all{
+    text-align: center;
+    padding: 30px;
+    .hijo{
+        background-color: rgb(186, 186, 255);
+        padding: 20px;
+        .nieto{
+            background-color: rgb(255, 206, 214);
+            width: 40%;
+            margin: auto;
+        }
+    }
+    button{
+        margin: 10px;
+        border: none;
+        border-bottom: 2px solid rgb(157, 90, 220);
+        border-radius: 10px;
+        padding: 7px 15px;
+        color: rgb(93, 31, 151);
+        background-color: rgb(199, 139, 255);
+    }
+}

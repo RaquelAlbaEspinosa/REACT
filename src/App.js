@@ -1,4 +1,4 @@
-import { Fragment } from 'react';
+import { Children, Fragment } from 'react';
 // -------------------01-import/export-------------------
 // import ImportExportApp from './01-import-export/ImportExportApp';
 
@@ -21,6 +21,16 @@ import { StringApp } from './06-strings/StringApp';
 // -------------------07-Array-------------------
 import { MapeoArray } from './07-array/explicacionMapeo/MapeoArray';
 
+// -------------------08-Objetos-------------------
+import { FormularioApp } from './08-objetos/explicacion/FormularioApp';
+
+// -------------------09-Props-------------------
+// import { PropsApp } from './09-Props/explicacion/PropsApp';
+
+// -------------------10-Children-------------------
+// import { ChildrenApp } from './10-children/explicación/ChildrenApp';
+// import { ModalApp } from './10-children/modal-generico/ModalApp';
+
 // import './App.css'; // importamos los estilos
 // ya no se usa class sino className porque ya existe un class en javaScript
 // para inyectar js se hace entre llaves, aunque intentemos poner lo mínimo posible dentro del return, mejor ponerla antes.
@@ -30,7 +40,7 @@ import { MapeoArray } from './07-array/explicacionMapeo/MapeoArray';
 
 // import Coche from "./Ejercicio-Class/Coche";
 // import { Section } from "./Ejercicio-Function/Section";
-// import './App.css';
+import './App.css';
 // import { TheSimpsons } from './TheSimpsons/TheSimpsons';
 // import { EjercicioUseState1 } from './04-useState/ejercicio/EjercicioUseState1';
 // import { EjercicioAudio } from './Ejercicio-Audio/EjercicioAudio';
@@ -39,8 +49,12 @@ import { MapeoArray } from './07-array/explicacionMapeo/MapeoArray';
 // import { Calculadoras } from './Ejercicio-Calculadora/Calculadoras';
 // import { EjercicioListaCompra } from './07-array/ejercicio-listaCompra/EjercicioListaCompra';
 // import { TablaBotones } from './07-array/ejercicio-TablaBotones/TablaBotones';
-import { Emoticonos } from './07-array/ejercicio-Emoticonos/Emoticonos';
-
+// import { Emoticonos } from './07-array/ejercicio-Emoticonos/Emoticonos';
+// import { AnimalForm } from './08-objetos/ejercicio-animal/AnimalForm';
+// import { EjerPasoHermanos } from './09-Props/ejercicioPasoHermanos/EjerPasoHermanos';
+// import { ContadorDistanciaApp } from './09-Props/ejerContDistanciaApp/ContadorDistanciaApp';
+import { NavbarApp } from './09-Props/ejercicio-navbar/NavbarApp';
+// import { Cards } from './09-Props/ejercicio-cards/Cards';
 
 
 function App() {
@@ -106,7 +120,37 @@ function App() {
       {/* <TablaBotones /> */}
 
       {/* Ejercicio Emoticonos */}
-      <Emoticonos />
+      {/* <Emoticonos /> */}
+
+      {/* 08 objetos */}
+      {/* ====================== */}
+      {/* <FormularioApp /> */}
+
+      {/* Ejercicio formulario animales */}
+      {/* <AnimalForm /> */}
+
+      {/* 09 objetos */}
+      {/* ====================== */}
+      {/* <PropsApp /> */}
+
+      {/* Ejercicio Paso Hermanos */}
+      {/* <EjerPasoHermanos /> */}
+
+      {/* Ejercicio Contador */}
+      {/* <ContadorDistanciaApp /> */}
+
+      {/* 09 objetos */}
+      {/* ====================== */}
+      {/* <ChildrenApp /> */}
+
+      {/* Modal */}
+      {/* <ModalApp /> */}
+
+      {/* Ejercicio navbar */}
+      <NavbarApp />
+
+      {/* Ejercicio cards */}
+      {/* <Cards /> */}
       
     </Fragment>
   );
