@@ -1,0 +1,33 @@
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    form{
+        width: 40vw;
+        padding: 40px 20px;
+        border-radius: 10px;
+        border-bottom: 3px solid rgb(71, 163, 189);
+        border-right: 3px solid rgb(71, 163, 189);
+        border-left: 1px solid rgb(71, 163, 189);
+        border-top: 1px solid rgb(71, 163, 189);
+        margin-top: 30px;
+    }
+    .pet{
+        padding: 20px;
+        width: 40vw;
+            p{
+                margin: 0;
+            }
+    }
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.encabezado{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -31,6 +31,16 @@ import { FormularioApp } from './08-objetos/explicacion/FormularioApp';
 // import { ChildrenApp } from './10-children/explicación/ChildrenApp';
 // import { ModalApp } from './10-children/modal-generico/ModalApp';
 
+// -------------------12-FormMultifile-------------------
+import { FormMultifile } from "./12-formMultifile/FormMultifile";
+
+// -------------------13-UseEffect-------------------
+import { UseEffectApp } from './13-UseEffect/UseEffectApp';
+
+// -------------------14-UseRef-------------------
+import { UseRef } from './14-UseRef/UseRef';
+
+
 // import './App.css'; // importamos los estilos
 // ya no se usa class sino className porque ya existe un class en javaScript
 // para inyectar js se hace entre llaves, aunque intentemos poner lo mínimo posible dentro del return, mejor ponerla antes.
@@ -53,9 +63,12 @@ import './App.css';
 // import { AnimalForm } from './08-objetos/ejercicio-animal/AnimalForm';
 // import { EjerPasoHermanos } from './09-Props/ejercicioPasoHermanos/EjerPasoHermanos';
 // import { ContadorDistanciaApp } from './09-Props/ejerContDistanciaApp/ContadorDistanciaApp';
-import { NavbarApp } from './09-Props/ejercicio-navbar/NavbarApp';
+// import { NavbarApp } from './09-Props/ejercicio-navbar/NavbarApp';
 // import { Cards } from './09-Props/ejercicio-cards/Cards';
-
+// import { FormularioModalApp } from './Ejercicio-resumen/FormularioModalApp';
+// import { EjercicioUsuario } from './13-UseEffect/ejercicio-usuario/EjercicioUsuario';
+// import { EjerClaseUSeRef } from './14-UseRef/ejercicio-UseRef/EjerClaseUSeRef';
+import { EjecicioRepasoHook } from './EjercicioRepasoHooks/EjecicioRepasoHook';
 
 function App() {
   return (
@@ -143,14 +156,39 @@ function App() {
       {/* ====================== */}
       {/* <ChildrenApp /> */}
 
-      {/* Modal */}
+      {/* 10 Modal */}
+      {/* ====================== */}
       {/* <ModalApp /> */}
 
       {/* Ejercicio navbar */}
-      <NavbarApp />
+      {/* <NavbarApp /> */}
 
       {/* Ejercicio cards */}
       {/* <Cards /> */}
+
+      {/* Ejercicio resumen */}
+      {/* <FormularioModalApp /> */}
+
+      {/* 12 multifile */}
+      {/* ====================== */}
+      {/* <FormMultifile /> */}
+
+      {/* 13 useEffect */}
+      {/* ====================== */}
+      {/* <UseEffectApp /> */}
+
+      {/* Ejercicio user */}
+      {/* <EjercicioUsuario /> */}
+
+      {/* 14 UseRef */}
+      {/* ====================== */}
+      {/* <UseRef /> */}
+
+      {/* Ejercicio UseRef */}
+      {/* <EjerClaseUSeRef /> */}
+
+      {/* EjercicioRepasoHooks */}
+      <EjecicioRepasoHook />
       
     </Fragment>
   );

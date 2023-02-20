@@ -20,11 +20,11 @@ export const NavbarApp = () => {
     const [user, setUser] = useState(initialValues);
 
     const handleChange = (e) => {
-        let {name, value} = e.target;
+        let {name, value, files } = e.target;
         setUser({...user, [name]: value});
-        if(name === "img"){
+        if(name === "img"){ //aquí se hace con el e.target.files[0].name, que es un array
             let finalValue = value.slice(12);
-            setUser({...user, [name]: finalValue});
+            setUser({...user, [name]: files[0].name});
         }
     }
 
