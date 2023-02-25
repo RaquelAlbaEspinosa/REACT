@@ -122,10 +122,10 @@ export const WeatherApp = () => {
           }
           {weather &&
             <Row className="graphicAndMore">
-              <Col xs = {12} md = {6} className="graphic">
+              <Col xs = {12} md = {7} className="graphic">
                 <TableWeather weather = {weather} />
               </Col>
-              <Col className="other">
+              <Col md = {4} className="other">
                 <div className="humidity">
                   <img src="/images/weather/humidity.png" alt="" />
                   <p>Humedad: {weather.list[selectedDay].humidity} %</p>
