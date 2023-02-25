@@ -32,14 +32,29 @@ import { FormularioApp } from './08-objetos/explicacion/FormularioApp';
 // import { ModalApp } from './10-children/modal-generico/ModalApp';
 
 // -------------------12-FormMultifile-------------------
-import { FormMultifile } from "./12-formMultifile/FormMultifile";
+// import { FormMultifile } from "./12-formMultifile/FormMultifile";
 
 // -------------------13-UseEffect-------------------
-import { UseEffectApp } from './13-UseEffect/UseEffectApp';
+// import { UseEffectApp } from './13-UseEffect/UseEffectApp';
 
 // -------------------14-UseRef-------------------
-import { UseRef } from './14-UseRef/UseRef';
+// import { UseRef } from './14-UseRef/UseRef';
 
+// -------------------15-UseContext-------------------
+// import { UseContext } from './15-UseContext/UseContext';
+// import { ContextAvanzado } from './15-UseContext/complicado/ContextAvanzado';
+
+// -------------------16-CustomHookApp-------------------
+// import { CustomHookApp } from './16-CustomHook/CustomHookApp';
+
+// -------------------17-ApiStarWars-------------------
+import { ApiStarWars } from './17-APIStarWars/ApiStarWars';
+
+// -------------------18-WeatherApi-------------------
+import { WeatherApp } from './18-WeatherApp/WeatherApp';
+
+// -------------------19-RouterDom-------------------
+import { RouterDomApp } from './19-reactRouterDom/RouterDomApp';
 
 // import './App.css'; // importamos los estilos
 // ya no se usa class sino className porque ya existe un class en javaScript
@@ -68,7 +83,8 @@ import './App.css';
 // import { FormularioModalApp } from './Ejercicio-resumen/FormularioModalApp';
 // import { EjercicioUsuario } from './13-UseEffect/ejercicio-usuario/EjercicioUsuario';
 // import { EjerClaseUSeRef } from './14-UseRef/ejercicio-UseRef/EjerClaseUSeRef';
-import { EjecicioRepasoHook } from './EjercicioRepasoHooks/EjecicioRepasoHook';
+// import { EjecicioRepasoHook } from './EjercicioRepasoHooks/EjecicioRepasoHook';
+// import { EjerUseContext } from './15-UseContext/EjerUseContext/EjerUseContext';
 
 function App() {
   return (
@@ -188,7 +204,33 @@ function App() {
       {/* <EjerClaseUSeRef /> */}
 
       {/* EjercicioRepasoHooks */}
-      <EjecicioRepasoHook />
+      {/* <EjecicioRepasoHook /> */}
+
+      {/* 15 UseContext */}
+      {/* ====================== */}
+      {/* <UseContext /> */}
+
+      {/* EjerUseContext */}
+      {/* <EjerUseContext /> */}
+
+      {/* Context Avanzado */}
+      {/* <ContextAvanzado /> */}
+
+      {/* 16 CustomHookApp */}
+      {/* ====================== */}
+      {/* <CustomHookApp /> */}
+
+      {/* 17 ApiStarWars */}
+      {/* ====================== */}
+      {/* <ApiStarWars /> */}
+
+      {/* 18 WeatherApi */}
+      {/* ====================== */}
+      <WeatherApp />
+
+      {/* 19 Roter Dom */}
+      {/* ====================== */}
+      {/* <RouterDomApp /> */}
       
     </Fragment>
   );

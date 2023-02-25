@@ -41,7 +41,9 @@ export const EjecicioRepasoHook = () => {
     }, []);
     useEffect(() => {
         text.current.style.fontSize = `${size1}px`;
-        text2.current.style.fontSize = `${size2}px`;
+        if(localStorage.getItem("pet")){
+            text2.current.style.fontSize = `${size2}px`;
+        }
     }, [size1, size2]);
 
     const makeBigger = () => {

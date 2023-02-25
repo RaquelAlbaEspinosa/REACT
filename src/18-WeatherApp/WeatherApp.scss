@@ -1,0 +1,196 @@
+.clear{
+    background-image: url("../../public/images/weather/clearSky.jpg");
+}
+.cloud{
+    background-image: url("../../public/images/weather/cloudySky.jpg");
+}
+.mist{
+    background-image: url("../../public/images/weather/mistSky.jpg");
+}
+.night{
+    background-image: url("../../public/images/weather/nightSky.jpg");
+}
+.snow{
+    background-image: url("../../public/images/weather/snowSky.jpg");
+}
+.storm{
+    background-image: url("../../public/images/weather/stormSky.jpg");
+}
+.rain{
+    background-image: url("../../public/images/weather/rainSky.jpg");
+}
+.allWApp{
+    text-align: center;
+    padding: 0 0 60px 0;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .title{
+        font-size: 100px;
+        padding: 20px;
+        color: rgb(110, 214, 255);
+        text-shadow: 3px 0 0 aliceblue, 0 3px 0 aliceblue, -3px 0 0 aliceblue, 0 -3px 0 aliceblue;
+    }
+    .searcher{
+        margin: 0;
+        width: 100%;
+        backdrop-filter: blur(2px);
+        background-color: rgba(240, 248, 255, 0.79);
+        padding-bottom: 30px;
+        .form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        input{
+            border-radius: 15px;
+            border: none;
+            margin: 10px;
+            padding: 10px;
+            width: 20%;
+            min-width: 200px;
+            text-align: center;
+        }
+        button{
+            background-color: rgba(176,235,255);
+            box-shadow: 2px 2px 5px rgba(0,154,205);
+            padding: 10px;
+            border-radius: 10px;
+            border: none;
+        }
+        button:hover{
+            background-color: rgba(0,154,205);
+            box-shadow: 0 0 5px 2px white;
+            color: aliceblue;
+            font-weight: bold;
+        }
+    }
+    .weatherDays{
+        color: rgb(32, 32, 32);
+        padding: 50px;
+        border: 2px solid rgb(79, 129, 191);
+        border-radius: 15px;
+        backdrop-filter: blur(5px);
+        background-color: rgba(255, 255, 255, 0.562);
+        width: 70vw;
+        margin: auto;
+        margin-top: 30px;
+        img{
+            width: 50px;
+            background-color: rgb(79, 129, 191);
+            border-radius: 50%;
+        }
+        .weatherList{
+            display: flex;
+            gap: 10px;
+            justify-content: space-around;
+            .weekWeather{
+                background-color: rgba(255, 255, 255, 0.788);
+                border: 2px solid rgb(79, 129, 191);
+                border-radius: 15px;
+                padding: 10px;
+                width: 150px;
+                cursor: pointer;
+                .tempWeek{
+                    font-size: 18px;
+                    font-weight: bold;
+                }
+            }
+            .weekWeather:hover{
+                box-shadow: 0 0 10px 10px rgb(128, 179, 241);
+                background-color: rgb(128, 179, 241);
+                border: 2px solid white;
+                color: white;
+                img{
+                    background-color: rgba(169, 215, 255, 0.612);
+                    box-shadow: 0 0 10px 2px white;
+                }
+            }
+        }
+        .today{
+            padding-bottom: 30px;
+            .temperature{
+                font-size: 40px;
+                font-weight: bold;
+            }
+            p {
+                font-size: 20px;
+            }
+            img {
+                width: 100px;
+            }
+        }
+    }
+    .graphicAndMore{
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+        padding: 0 100px;
+        margin-top: 30px;
+        .graphic, .other {
+            backdrop-filter: blur(5px);
+            background-color: rgba(255, 255, 255, 0.584);
+            padding: 20px;
+            border-radius: 15px;
+            border: 2px solid rgb(79, 129, 191);
+            text-align: center;
+        }
+        .graphic{
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            canvas{
+                margin: 0;
+                object-fit: cover;
+                object-position: center;
+            }
+        }
+        .other{
+            div{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 30px;
+                margin: 10px;
+                border: 2px solid white;
+                box-shadow: none;
+                padding: 10px;
+                border-radius: 15px;
+            }
+            p{
+                width: 50%;
+                margin: 0;
+            }
+            img{
+                width: 70px;
+                margin: 0;
+            }
+            .humidity{
+                background-color: rgb(179, 220, 255);
+            }
+            .clouds{
+                background-color: rgb(186, 202, 215);
+            }
+            .wind{
+                background-color: rgb(184, 255, 231);
+            }
+            .rainPercentage{
+                background-color: rgb(170, 255, 255);
+            }
+            .snowPercentage{
+                background-color: white;
+            }
+            .sunrise{
+                background-color: rgb(255, 255, 184);
+            }
+            .sunset{
+                background-color: rgb(255, 200, 99);
+            }
+        }
+    }
+}

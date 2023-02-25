@@ -1,0 +1,99 @@
+.ppal{
+    text-align: center;
+    background-image: url("../../public/images/StarWars/wallpaperbetter.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 4% 7% 1% 7%;
+    section{
+        display: flex;
+        justify-content: space-between;
+    }
+    .botones {
+        display: flex;
+        flex-direction: column;
+        button{
+            margin: 5%;
+            width: 15vw;
+            padding: 10px;
+            border: none;
+            border-radius: 15px;
+            background-color: darkblue;
+            color: white;
+            border: 3px solid white;
+            border-radius: 20px;
+        }
+    }
+    .ficha{
+        display: flex;
+        align-items: center;
+        height: 55vh;
+        width: 35vw;
+        border-radius: 30px;
+        border: 4px solid white;
+        box-shadow: 0 0 10px 5px white;
+        padding: 30px;
+        img{
+            width: 70%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+            margin: 0;
+            border-radius: 15px;
+        }
+        h2{
+            padding: 10px;
+            font-size: 20px;
+        }
+    }
+    .galeria{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 20px;
+        button{
+            background-color: transparent;
+            border: none;
+            font-size: 50px;
+            color: white;
+        }
+        button:hover{
+            box-shadow: none;
+            text-shadow: 0 0 50px rgb(89, 255, 89), 0 0 10px white;
+            font-size: 60px;
+        }
+        .galeriaButtons{
+            background-color: darkblue;
+            border: 2px solid white;
+            color: white;
+            width: 100px;
+            height: 170px;
+            font-size: 14px;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: center;
+            gap: 5px;
+            img{
+                width: 100%;
+                height: 60%;
+                object-fit: cover;
+                object-position: center;
+                margin: 0;
+            }
+            p{
+                height: 30px;
+                padding: 5px;
+            }
+        }
+        .galeriaButtons:hover{
+            box-shadow: 0 0 10px 5px white;
+            cursor: pointer;
+        }
+    }
+    button:hover {
+        box-shadow: 0 0 10px 5px white;
+    }
+}
