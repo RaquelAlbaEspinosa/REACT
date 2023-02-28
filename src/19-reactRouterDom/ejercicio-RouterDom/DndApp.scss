@@ -1,0 +1,361 @@
+.container-fluid{
+    background-color: rgb(26, 26, 26);
+    min-height: calc(100vh - 86px);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar{
+    .navbar-brand{
+        color: RGB(229,57,53);
+        font-weight: 700;
+    }
+    img{
+        width: 60px;
+        padding: 10px;
+        margin: 0;
+    }
+}
+
+h1{
+    padding: 30px 0;
+    font-weight: 700;
+}
+
+.home{
+    background-image: url("../../../public/images/Dnd/background1.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: calc(100vh - 86px);
+    h1{
+        font-size: 100px;
+        text-align: center;
+        text-shadow: 3px 0px 3px rgb(237, 158, 0), 0px 3px 3px rgb(182, 121, 0), -3px 0px 3px rgb(182, 121, 0), 0px -3px 3px rgb(182, 121, 0), 5px 0px 20px rgb(255, 255, 98), 0px 5px 20px rgb(255, 255, 98), -5px 0px 20px rgb(255, 255, 98), 0px -5px 20px rgb(255, 255, 98);
+    }
+    h2{
+        text-align: center;
+        padding: 7% 0;
+        font-size: 60px;
+        text-shadow: 3px 3px 10px black;
+    }
+    .welcome{
+        padding: 20px;
+        margin: 0;
+        text-align: center;
+        font-size: 80px;
+        color: white;
+        text-shadow: 3px 3px 10px black;
+
+    }
+    .dice{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        .background{
+            background: radial-gradient(circle, rgb(225, 255, 73) 0%, rgb(18, 143, 47) 33%, rgba(111,5,3,0) 56%, rgba(105,2,0,0) 100%);
+        }
+        .homeDice{
+            background-image: url("../../../public/images/Dnd/plainDice.png");
+            background-position: center;
+            background-size: cover;
+            height: 270px;
+            width: 270px;
+            margin: auto;
+            p{
+                font-size: 60px;
+                padding: 30%;
+                text-align: center;
+            }
+        }
+        button{
+            background-color: RGB(229,57,53);
+            color: white;
+            font-size: 25px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 20px;
+            box-shadow: 5px 5px 10px
+            black;
+        }
+        button:hover{
+            background: linear-gradient(165deg, rgba(255,76,73,1) 0%, rgba(105,2,0,1) 100%);
+        }
+        button:active{
+            background: yellow;
+            box-shadow: 5px 0 10px white, 0 5px 10px white, -5px 0 10px white, 0 -5px 10px white;
+            color: grey;
+        }
+    }
+}
+
+.about{
+    padding: 30px 50px;
+    background-image: url("../../../public/images/Dnd/background3.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: calc(100vh - 86px);
+    .text{
+        border-radius: 20px;
+        background-color: rgba(0, 0, 0, 0.515);
+        padding: 20px;
+    }
+    img{
+        width: 100%;
+        padding: 0 40px;
+    }
+}
+
+.classesPpal{
+    min-height: calc(100vh - 86px);
+    background-image: url("../../../public/images/Dnd/background4.jpg");
+    background-position: center;
+    background-size: cover;
+    h2{
+        padding: 20px 0 30px 0;
+        text-align: center;
+        font-size: 50px;
+        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.792);
+    }
+    .classes{
+        font-size: 20px;
+        p{
+            border: 2px solid white;  
+            border-radius: 15px;  
+            padding: 15px;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(0, 0, 0, 0.607);
+        }
+        p:hover{
+            box-shadow: 5px 0px 20px white, 0px 5px 20px white, -5px 0px 20px white, 0px -5px 20px white;
+            cursor: pointer;
+            font-size: 25px;
+            background-color: rgba(84, 224, 255, 0.874);
+        }
+    }
+}
+
+.clase{
+    padding: 20px 80px;
+    background-position: top;
+    background-attachment: fixed;
+    background-size: cover;
+    .characteristics{
+        border-radius: 20px;
+        background-color: rgba(0, 0, 0, 0.682);
+        padding: 20px 50px;
+    }
+    h2{
+        font-size: 80px;
+        text-align: center;
+        color: RGB(229,57,53);
+        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.849);
+        padding: 20px 0;
+    }
+    h4{
+        padding: 20px 0;
+    }
+    .proficiencies{
+        padding: 5px 10px;
+        p{
+            text-align: center;
+            padding: 20px 0;
+            cursor: pointer;
+            border: 2px solid white;
+        }
+    }
+    .proficiencies{
+        p:hover{
+        background-color: rgb(255, 221, 180);
+        color: rgb(22, 22, 22);
+        box-shadow: 5px 0px 20px white, 0px 5px 20px white, -5px 0px 20px white, 0px -5px 20px white;
+    }}
+    .equipOpt{
+        padding: 10px 0;
+    }
+}
+.barbarian{
+    background-image: url("../../../public/images/Dnd/barbarian.jpg");
+}
+.bard{
+    background-image: url("../../../public/images/Dnd/bard.avif");
+    
+}
+.cleric{
+    background-image: url("../../../public/images/Dnd/cleric.avif");
+    
+}
+.druid{
+    background-image: url("../../../public/images/Dnd/druid.webp");
+    
+}
+.fighter{
+    background-image: url("../../../public/images/Dnd/fighter.jpg");
+    
+}
+.monk{
+    background-image: url("../../../public/images/Dnd/monk.jpg");
+    
+}
+.paladin{
+    background-image: url("../../../public/images/Dnd/paladin.jpg");
+    
+}
+.ranger{
+    background-image: url("../../../public/images/Dnd/ranger.webp");
+    
+}
+.rogue{
+    background-image: url("../../../public/images/Dnd/rogue.jpg");
+    
+}
+.sorcerer{
+    background-image: url("../../../public/images/Dnd/sorcerer.webp");
+    
+}
+.warlock{
+    background-image: url("../../../public/images/Dnd/warlock.jpg");
+    
+}
+.wizard{
+    background-image: url("../../../public/images/Dnd/wizard.avif");
+    
+}
+
+.equipment{
+    min-height: calc(100vh - 86px);
+    text-align: center;
+    background-image: url("../../../public/images/Dnd/equipment.webp");
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 30px 80px;
+    h1{
+        font-size: 80px;
+        text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.801);
+    }
+    .one{
+        padding: 10px 20px;
+    }
+    p{
+        background-color: rgba(0, 0, 0, 0.782);
+        border-radius: 20px;
+        padding: 20px;
+        border: 2px solid white;
+        cursor: pointer;
+    }
+    p:hover{
+        box-shadow: 5px 0px 20px white, 0px 5px 20px white, -5px 0px 20px white, 0px -5px 20px white;
+        background-color: blanchedalmond;
+        color: rgb(26, 26, 26);
+    }
+}
+
+.oneEquip{
+    .desc{
+        background-color: rgba(0, 0, 0, 0.782);
+        border-radius: 20px;
+        padding: 20px;
+    }
+    p{
+        background-color: transparent;
+        border: none;
+        cursor: auto;
+    }
+    p:hover{
+        box-shadow: none;
+        background-color: transparent;
+        color: white;
+    }
+}
+
+.oneSkill{
+    padding: 30px 80px;
+    h1{
+        font-size: 80px;
+        text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.816);
+        text-align: center;
+    }
+    .desc{
+        padding: 40px;
+        background-color: rgba(0, 0, 0, 0.768);
+        border-radius: 20px;
+    }
+}
+.skills{
+    min-height: calc(100vh - 86px);
+    background-image: url("../../../public/images/Dnd/skills.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.subclass{
+    min-height: calc(100vh - 86px);
+    padding: 30px 80px;
+    h1{
+        text-align: center;
+        font-size: 80px;
+        text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.768);
+        margin: 0;
+    }
+    .desc{
+        background-color: rgba(0, 0, 0, 0.71);
+        border-radius: 20px;
+        padding: 30px;
+    }
+}
+
+.abilityScores{
+    min-height: calc(100vh - 86px);
+    padding: 30px 80px;
+    background-image: url("../../../public/images/Dnd/ability.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    h1{
+        font-size: 80px;
+        text-align: center;
+        text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.833);
+    }
+    .ability{
+        padding: 10px 20px;
+    }
+    h3{
+        cursor: pointer;
+        text-align: center;
+        padding: 20px;
+        border-radius: 20px;
+        border: 2px solid white;
+        background-color: rgba(0, 0, 0, 0.678);
+    }
+    h3:hover{
+        background-color: rgb(255, 224, 168);
+        color: rgb(110, 110, 110);
+        box-shadow: 5px 0px 20px white, 0px 5px 20px white, -5px 0px 20px white, 0px -5px 20px white;
+    }
+    .extended{
+        margin-top: 30px;
+        padding: 20px 40px;
+        background-color: rgba(0, 0, 0, 0.678);
+        border-radius: 20px;
+        h2{
+            padding: 10px 0;
+            font-size: 50px;
+        }
+    }
+}
+
+.error {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img{
+        width: 30%;
+    }
+}

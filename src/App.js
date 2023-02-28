@@ -85,6 +85,7 @@ import './App.css';
 // import { EjerClaseUSeRef } from './14-UseRef/ejercicio-UseRef/EjerClaseUSeRef';
 // import { EjecicioRepasoHook } from './EjercicioRepasoHooks/EjecicioRepasoHook';
 // import { EjerUseContext } from './15-UseContext/EjerUseContext/EjerUseContext';
+import { DndApp } from './19-reactRouterDom/ejercicio-RouterDom/DndApp';
 
 function App() {
   return (
@@ -226,11 +227,14 @@ function App() {
 
       {/* 18 WeatherApi */}
       {/* ====================== */}
-      <WeatherApp />
+      {/* <WeatherApp /> */}
 
       {/* 19 Roter Dom */}
       {/* ====================== */}
       {/* <RouterDomApp /> */}
+
+      {/* Ejercicio DndApp */}
+      <DndApp />
       
     </Fragment>
   );
